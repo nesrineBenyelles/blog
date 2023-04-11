@@ -1,0 +1,81 @@
+/* Style des icônes */
+.article-meta  {
+  margin-right: 5px;
+  font-size: 1em;
+  vertical-align: middle;
+  color: #7d7d86;
+}
+.article-meta span {
+  margin-right: 10px;
+}
+.article-avocat{
+  margin-right: 5px;
+  color: #706f8b;
+  width: 20px;
+  height:20px;
+}
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+  }
+  
+  .article-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+
+  }
+  
+  .article-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-thumbnail img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .article-content {
+    padding: 30px;
+  }
+  
+  .article-header {
+    margin-bottom: 10px;
+  }
+  
+  .article-title a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #3A425C;
+    text-decoration: none;
+  }
+  .article-title{
+    margin-bottom: 15px;
+  }
+  .article-summary p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .btn-read-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #424a65;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-read-more:hover {
+    background-color: #1D243B;
+  }
+  
+  
